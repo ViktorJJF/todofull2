@@ -1,0 +1,269 @@
+{
+  "id": 96164,
+  "parent_id": 0,
+  "status": "processing",
+  "currency": "CLP",
+  "version": "5.3.0",
+  "prices_include_tax": false,
+  "date_created": "2021-06-08T20:34:35",
+  "date_modified": "2021-06-08T20:38:06",
+  "discount_total": "0",
+  "discount_tax": "0",
+  "shipping_total": "0",
+  "shipping_tax": "0",
+  "cart_tax": "0",
+  "total": "84000",
+  "total_tax": "0",
+  "customer_id": 2463,
+  "order_key": "wc_order_ZHrEHj3NGnjDG",
+  "billing": {
+    "first_name": "Rossana Acevedo Parada",
+    "last_name": "",
+    "company": "",
+    "address_1": "Marinero Fuentealba 272 , paradero 15 Belloto centro",
+    "address_2": "",
+    "city": "Quilpué",
+    "state": "VAL",
+    "postcode": "",
+    "country": "CL",
+    "email": "rossacevedop@gmail.com",
+    "phone": "963687688"
+  },
+  "shipping": {
+    "first_name": "Rossana Acevedo Parada",
+    "last_name": "",
+    "company": "",
+    "address_1": "Marinero Fuentealba 272 , paradero 15 Belloto centro",
+    "address_2": "",
+    "city": "Quilpué",
+    "state": "VAL",
+    "postcode": "",
+    "country": "CL"
+  },
+  "payment_method": "transbank_webpay_plus_rest",
+  "payment_method_title": "Transbank Webpay Plus",
+  "transaction_id": "",
+  "customer_ip_address": "190.161.157.205",
+  "customer_user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1",
+  "created_via": "checkout",
+  "customer_note": "",
+  "date_completed": null,
+  "date_paid": "2021-06-08T20:38:06",
+  "cart_hash": "47212e28733c46f45021fe41af339bf9",
+  "number": "96164",
+  "meta_data": [
+    {
+      "id": 1960727,
+      "key": "mailchimp_woocommerce_campaign_id",
+      "value": ""
+    },
+    {
+      "id": 1960728,
+      "key": "mailchimp_woocommerce_landing_site",
+      "value": "https://mujeron.cl/?token_ws=1131853e5b5544bc8c9014a1c2c08073a100081091eb6a7cbce983b723f88a8a&wc-api=WC_Gateway_transbank_webpay_plus_rest"
+    },
+    {
+      "id": 1960760,
+      "key": "is_vat_exempt",
+      "value": "no"
+    },
+    {
+      "id": 1960761,
+      "key": "rut",
+      "value": "988878726"
+    },
+    {
+      "id": 1960762,
+      "key": "_wc_google_analytics_pro_identity",
+      "value": "835502772.1622781891"
+    },
+    {
+      "id": 1960763,
+      "key": "_wc_google_analytics_pro_placed",
+      "value": "yes"
+    },
+    {
+      "id": 1960764,
+      "key": "_wc_facebook_for_woocommerce_order_placed",
+      "value": "yes"
+    },
+    {
+      "id": 1960765,
+      "key": "mailchimp_woocommerce_is_subscribed",
+      "value": "1"
+    },
+    {
+      "id": 1960766,
+      "key": "transactionResponse",
+      "value": "Transacción Aprobada"
+    },
+    {
+      "id": 1960767,
+      "key": "buyOrder",
+      "value": "96164"
+    },
+    {
+      "id": 1960768,
+      "key": "authorizationCode",
+      "value": "438339"
+    },
+    {
+      "id": 1960769,
+      "key": "cardNumber",
+      "value": "8804"
+    },
+    {
+      "id": 1960770,
+      "key": "paymentCodeResult",
+      "value": "Venta en cuotas"
+    },
+    {
+      "id": 1960771,
+      "key": "amount",
+      "value": "84000"
+    },
+    {
+      "id": 1960772,
+      "key": "installmentsNumber",
+      "value": "6"
+    },
+    {
+      "id": 1960773,
+      "key": "installmentsAmount",
+      "value": "14000"
+    },
+    {
+      "id": 1960774,
+      "key": "transactionDate",
+      "value": "08-06-2021 / 23:34:37"
+    },
+    {
+      "id": 1960775,
+      "key": "webpay_transaction_id",
+      "value": "2931"
+    },
+    {
+      "id": 1960776,
+      "key": "webpay_rest_response",
+      "value": "{\"vci\":\"TSY\",\"status\":\"AUTHORIZED\",\"responseCode\":0,\"amount\":84000,\"authorizationCode\":\"438339\",\"paymentTypeCode\":\"VC\",\"accountingDate\":\"0608\",\"installmentsNumber\":6,\"installmentsAmount\":14000,\"sessionId\":\"60bffe8d71455\",\"buyOrder\":\"96164\",\"cardNumber\":\"8804\",\"cardDetail\":{\"card_number\":\"8804\"},\"transactionDate\":\"2021-06-08T23:34:37.976Z\",\"balance\":null}"
+    },
+    {
+      "id": 1960783,
+      "key": "_wc_google_analytics_pro_tracked",
+      "value": "yes"
+    },
+    {
+      "id": 1960784,
+      "key": "_new_order_email_sent",
+      "value": "true"
+    },
+    {
+      "id": 1960785,
+      "key": "mwb_wgm_order_giftcard",
+      "value": "notsend"
+    },
+    {
+      "id": 1960786,
+      "key": "_wc_facebook_for_woocommerce_purchase_tracked",
+      "value": "yes"
+    }
+  ],
+  "line_items": [
+    {
+      "id": 29272,
+      "name": "Jeans Colombiano Levanta Cola 12868 Cheviotto - 46",
+      "product_id": 95702,
+      "variation_id": 95708,
+      "quantity": 1,
+      "tax_class": "",
+      "subtotal": "42000",
+      "subtotal_tax": "0",
+      "total": "42000",
+      "total_tax": "0",
+      "taxes": [],
+      "meta_data": [
+        {
+          "id": 250230,
+          "key": "pa_talla",
+          "value": "46",
+          "display_key": "talla",
+          "display_value": "46"
+        }
+      ],
+      "sku": "Jeans Colombiano Levanta Cola 12868 Cheviotto",
+      "price": 42000,
+      "parent_name": "Jeans Colombiano Levanta Cola 12868 Cheviotto"
+    },
+    {
+      "id": 29273,
+      "name": "Jeans Colombiano Levanta Cola 12923 Cheviotto - 46",
+      "product_id": 96026,
+      "variation_id": 96032,
+      "quantity": 1,
+      "tax_class": "",
+      "subtotal": "42000",
+      "subtotal_tax": "0",
+      "total": "42000",
+      "total_tax": "0",
+      "taxes": [],
+      "meta_data": [
+        {
+          "id": 250240,
+          "key": "pa_talla",
+          "value": "46",
+          "display_key": "talla",
+          "display_value": "46"
+        }
+      ],
+      "sku": "Jeans Colombiano Levanta Cola 12923 Cheviotto",
+      "price": 42000,
+      "parent_name": "Jeans Colombiano Levanta Cola 12923 Cheviotto"
+    }
+  ],
+  "tax_lines": [],
+  "shipping_lines": [
+    {
+      "id": 29274,
+      "method_title": "Envío Gratis",
+      "method_id": "advanced_shipping",
+      "instance_id": "0",
+      "total": "0",
+      "total_tax": "0",
+      "taxes": [],
+      "meta_data": [
+        {
+          "id": 250246,
+          "key": "Artículos",
+          "value": "Jeans Colombiano Levanta Cola 12868 Cheviotto - 46 &times; 1, Jeans Colombiano Levanta Cola 12923 Cheviotto - 46 &times; 1",
+          "display_key": "Artículos",
+          "display_value": "Jeans Colombiano Levanta Cola 12868 Cheviotto - 46 &times; 1, Jeans Colombiano Levanta Cola 12923 Cheviotto - 46 &times; 1"
+        }
+      ]
+    }
+  ],
+  "fee_lines": [],
+  "coupon_lines": [],
+  "refunds": [],
+  "date_created_gmt": "2021-06-08T23:34:35",
+  "date_modified_gmt": "2021-06-08T23:38:06",
+  "date_completed_gmt": null,
+  "date_paid_gmt": "2021-06-08T23:38:06",
+  "currency_symbol": "$",
+  "_links": {
+    "self": [
+      {
+        "href": "https://mujeron.cl/wp-json/wc/v3/orders/96164"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://mujeron.cl/wp-json/wc/v3/orders"
+      }
+    ],
+    "customer": [
+      {
+        "href": "https://mujeron.cl/wp-json/wc/v3/customers/2463"
+      }
+    ]
+  }
+}

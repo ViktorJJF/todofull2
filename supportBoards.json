@@ -1,0 +1,342 @@
+headers: {
+  "host": "d8e2c7e2876c.ngrok.io",
+  "user-agent": "SB",
+  "accept": "*/*",
+  "content-type": "application/json",
+  "content-length": "211",
+  "x-forwarded-proto": "https",
+  "x-forwarded-for": "51.81.86.185"
+}
+ body: {
+  "function": "message-sent",
+  "key": "",
+  "data": {
+    "user_id": "3526",
+    "conversation_id": "3547",
+    "conversation_status_code": "false",
+    "message_id": "100851",
+    "message": "vjjjjj@gmail.com"
+  },
+  "sender-url": "https://mujeron.cl/"
+}
+ POST /support-board/webhook 200 12.872 ms - 2
+ headers: {
+  "host": "d8e2c7e2876c.ngrok.io",
+  "user-agent": "SB",
+  "accept": "*/*",
+  "content-type": "application/json",
+  "content-length": "445",
+  "x-forwarded-proto": "https",
+  "x-forwarded-for": "51.81.86.185"
+}
+ body: {
+  "function": "new-message",
+  "key": "",
+  "data": [
+    {
+      "details": {
+        "id": "100851",
+        "user_id": "3526",
+        "message": "vjjjjj@gmail.com",
+        "creation_time": "2021-05-02 17:50:02",
+        "status_code": "0",
+        "attachments": "",
+        "conversation_id": "3547",
+        "first_name": "User",
+        "last_name": "#57225",
+        "profile_image": "https://mujeron.cl/wp-content/plugins/supportboard/supportboard/media/user.svg",
+        "user_type": "lead",
+        "full_name": "User #57225"
+      }
+    }
+  ],
+  "sender-url": "https://mujeron.cl/"
+}
+ POST /support-board/webhook 200 3.819 ms - 2
+ headers: {
+  "host": "d8e2c7e2876c.ngrok.io",
+  "user-agent": "SB",
+  "accept": "*/*",
+  "content-type": "application/json",
+  "content-length": "2602",
+  "expect": "100-continue",
+  "x-forwarded-proto": "https",
+  "x-forwarded-for": "51.81.86.185"
+}
+ body: {
+  "function": "bot-message",
+  "key": "",
+  "data": {
+    "response": {
+      "token": "ya29.a0AfH6SMAfNIJlby4zLg7iVxcge5lJs6UqVYPuONaZQFWeE2gY0acDTnzfoUPFrrjrGmXBAevIMETuica_ccbZtKgGIFFzFC3pCaW3mutUmthhMM52a1uNn07-LTa2B6G3EGOSOEOGNNvGg031JC7VZ_zz0VMifZQ",
+      "messages": [
+        {
+          "db": {
+            "message-id": "100852",
+            "queue": "false"
+          },
+          "message": "Para finalizar nos interesaría saber de que ciudad eres?",
+          "payload": "false"
+        }
+      ],
+      "response": {
+        "responseId": "474375da-cb08-41c3-b3ee-154401a25fba-eff3b2e4",
+        "queryResult": {
+          "queryText": "vjjjjj@gmail.com",
+          "action": "NumerosTelefonicosRecibidos.action",
+          "parameters": {
+            "telefono": [
+              "999999"
+            ],
+            "ciudad": "",
+            "correo": "vjjjjj@gmail.com",
+            "nombre": "vikkk"
+          },
+          "fulfillmentText": "Para finalizar nos interesaría saber de que ciudad eres?",
+          "fulfillmentMessages": [
+            {
+              "text": {
+                "text": [
+                  "Para finalizar nos interesaría saber de que ciudad eres?"
+                ]
+              }
+            }
+          ],
+          "outputContexts": [
+            {
+              "name": "projects/m007-cladik/agent/sessions/3526/contexts/90a04cf5-69f5-4dea-be63-fc23915dce90_id_dialog_context",
+              "lifespanCount": "2",
+              "parameters": {
+                "nombre": "vikkk",
+                "nombre.original": "vikkk",
+                "ciudad": "",
+                "telefono": [
+                  "999999"
+                ],
+                "ciudad.original": "",
+                "correo.original": "",
+                "correo": "vjjjjj@gmail.com"
+              }
+            },
+            {
+              "name": "projects/m007-cladik/agent/sessions/3526/contexts/numerostelefonicosrecibidos_dialog_context",
+              "lifespanCount": "2",
+              "parameters": {
+                "ciudad.original": "",
+                "nombre": "vikkk",
+                "telefono": [
+                  "999999"
+                ],
+                "correo.original": "",
+                "nombre.original": "vikkk",
+                "correo": "vjjjjj@gmail.com",
+                "ciudad": ""
+              }
+            },
+            {
+              "name": "projects/m007-cladik/agent/sessions/3526/contexts/numerostelefonicosrecibidos_dialog_params_ciudad",
+              "lifespanCount": "1",
+              "parameters": {
+                "ciudad": "",
+                "correo": "vjjjjj@gmail.com",
+                "ciudad.original": "",
+                "telefono": [
+                  "999999"
+                ],
+                "correo.original": "",
+                "nombre": "vikkk",
+                "nombre.original": "vikkk"
+              }
+            },
+            {
+              "name": "projects/m007-cladik/agent/sessions/3526/contexts/__system_counters__",
+              "lifespanCount": "1",
+              "parameters": {
+                "nombre": "vikkk",
+                "correo": "vjjjjj@gmail.com",
+                "correo.original": "",
+                "telefono": [
+                  "999999"
+                ],
+                "no-input": "0",
+                "no-match": "0",
+                "ciudad": "",
+                "ciudad.original": "",
+                "nombre.original": "vikkk"
+              }
+            },
+            {
+              "name": "projects/m007-cladik/agent/sessions/3526/contexts/numerostelefonicosrecibidos",
+              "lifespanCount": "1",
+              "parameters": {
+                "telefono": [
+                  "999999"
+                ],
+                "correo": "vjjjjj@gmail.com",
+                "ciudad.original": "",
+                "correo.original": "",
+                "nombre.original": "vikkk",
+                "nombre": "vikkk",
+                "ciudad": ""
+              }
+            }
+          ],
+          "intent": {
+            "name": "projects/m007-cladik/agent/intents/90a04cf5-69f5-4dea-be63-fc23915dce90",
+            "displayName": "NumerosTelefonicosRecibidos"
+          },
+          "intentDetectionConfidence": "1",
+          "languageCode": "es"
+        },
+        "outputAudio": ""
+      }
+    },
+    "message": "vjjjjj@gmail.com"
+  },
+  "sender-url": "https://mujeron.cl/"
+}
+ POST /support-board/webhook 200 17.910 ms - 2
+ headers: {
+  "host": "d8e2c7e2876c.ngrok.io",
+  "user-agent": "SB",
+  "accept": "*/*",
+  "content-type": "application/json",
+  "content-length": "2620",
+  "expect": "100-continue",
+  "x-forwarded-proto": "https",
+  "x-forwarded-for": "51.81.86.185"
+}
+ body: {
+  "function": "new-message",
+  "key": "",
+  "data": [
+    {
+      "details": {
+        "id": "100852",
+        "user_id": "2",
+        "message": "Para finalizar nos interesaría saber de que ciudad eres?",
+        "creation_time": "2021-05-02 17:50:05",
+        "status_code": "0",
+        "attachments": "",
+        "payload": {
+          "responseId": "474375da-cb08-41c3-b3ee-154401a25fba-eff3b2e4",
+          "queryResult": {
+            "queryText": "vjjjjj@gmail.com",
+            "action": "NumerosTelefonicosRecibidos.action",
+            "parameters": {
+              "telefono": [
+                "999999"
+              ],
+              "ciudad": "",
+              "correo": "vjjjjj@gmail.com",
+              "nombre": "vikkk"
+            },
+            "fulfillmentText": "Para finalizar nos interesaría saber de que ciudad eres?",
+            "fulfillmentMessages": [
+              {
+                "text": {
+                  "text": [
+                    "Para finalizar nos interesaría saber de que ciudad eres?"
+                  ]
+                }
+              }
+            ],
+            "outputContexts": [
+              {
+                "name": "projects/m007-cladik/agent/sessions/3526/contexts/90a04cf5-69f5-4dea-be63-fc23915dce90_id_dialog_context",
+                "lifespanCount": "2",
+                "parameters": {
+                  "nombre": "vikkk",
+                  "nombre.original": "vikkk",
+                  "ciudad": "",
+                  "telefono": [
+                    "999999"
+                  ],
+                  "ciudad.original": "",
+                  "correo.original": "",
+                  "correo": "vjjjjj@gmail.com"
+                }
+              },
+              {
+                "name": "projects/m007-cladik/agent/sessions/3526/contexts/numerostelefonicosrecibidos_dialog_context",
+                "lifespanCount": "2",
+                "parameters": {
+                  "ciudad.original": "",
+                  "nombre": "vikkk",
+                  "telefono": [
+                    "999999"
+                  ],
+                  "correo.original": "",
+                  "nombre.original": "vikkk",
+                  "correo": "vjjjjj@gmail.com",
+                  "ciudad": ""
+                }
+              },
+              {
+                "name": "projects/m007-cladik/agent/sessions/3526/contexts/numerostelefonicosrecibidos_dialog_params_ciudad",
+                "lifespanCount": "1",
+                "parameters": {
+                  "ciudad": "",
+                  "correo": "vjjjjj@gmail.com",
+                  "ciudad.original": "",
+                  "telefono": [
+                    "999999"
+                  ],
+                  "correo.original": "",
+                  "nombre": "vikkk",
+                  "nombre.original": "vikkk"
+                }
+              },
+              {
+                "name": "projects/m007-cladik/agent/sessions/3526/contexts/__system_counters__",
+                "lifespanCount": "1",
+                "parameters": {
+                  "nombre": "vikkk",
+                  "correo": "vjjjjj@gmail.com",
+                  "correo.original": "",
+                  "telefono": [
+                    "999999"
+                  ],
+                  "no-input": "0",
+                  "no-match": "0",
+                  "ciudad": "",
+                  "ciudad.original": "",
+                  "nombre.original": "vikkk"
+                }
+              },
+              {
+                "name": "projects/m007-cladik/agent/sessions/3526/contexts/numerostelefonicosrecibidos",
+                "lifespanCount": "1",
+                "parameters": {
+                  "telefono": [
+                    "999999"
+                  ],
+                  "correo": "vjjjjj@gmail.com",
+                  "ciudad.original": "",
+                  "correo.original": "",
+                  "nombre.original": "vikkk",
+                  "nombre": "vikkk",
+                  "ciudad": ""
+                }
+              }
+            ],
+            "intent": {
+              "name": "projects/m007-cladik/agent/intents/90a04cf5-69f5-4dea-be63-fc23915dce90",
+              "displayName": "NumerosTelefonicosRecibidos"
+            },
+            "intentDetectionConfidence": "1",
+            "languageCode": "es"
+          },
+          "outputAudio": ""
+        },
+        "conversation_id": "3547",
+        "first_name": "Ana María",
+        "last_name": "",
+        "profile_image": "https://mujeron.cl/wp-content/uploads/sb/29-05-20/bot.jpg",
+        "user_type": "bot",
+        "full_name": "Ana María "
+      }
+    }
+  ],
+  "sender-url": "https://mujeron.cl/"
+}

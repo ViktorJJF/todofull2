@@ -1,0 +1,136 @@
+{
+  "function": "bot-message",
+  "key": "",
+  "data": {
+    "response": {
+      "token": "ya29.a0ARrdaM_rznVHDHS5ET_BYZSwA0dsgbGFiofDERn9sWqvKWI60RD8qpOA7APTJTN0wis9UDE4yEcB5GF-IljhF89R751JjOuNXV4-Nrj_yM-VvARFbEbaCsiqmP5KhSxRML9MkKWrBkpaAaoZQW2AxEtD_u2nuJk",
+      "messages": [
+        {
+          "db": {
+            "message-id": "136379",
+            "queue": "false"
+          },
+          "message": "💰 *Cheviotto* 42.000 *x unidad*\n💰 *Mujerón* 40.000 *x unidad*\n💰 *TyT* en 42.000 *x unidad*\n💰 *Forlux* 42.000 *x unidad*\n💰 *Real* en 38.000 *x unidad*  \n💰 *Asi Sea*  44.000 *x unidad*",
+          "payload": "false"
+        },
+        {
+          "db": {
+            "message-id": "136380",
+            "queue": "false"
+          },
+          "message": "https://mujeron.cl/jeans-colombianos/",
+          "payload": {
+            "etiquetaFB": "1703325846383525"
+          }
+        },
+        {
+          "db": {
+            "message-id": "136381",
+            "queue": "false"
+          },
+          "message": "",
+          "payload": {
+            "etiquetaFB": "2204446953008371"
+          }
+        },
+        {
+          "db": {
+            "message-id": "136382",
+            "queue": "false"
+          },
+          "message": "💰 *Cheviotto* 42.000 *x unidad*\n💰 *Mujerón* 40.000 *x unidad*\n💰 *TyT* en 42.000 *x unidad*\n💰 *Forlux* 42.000 *x unidad*\n💰 *Real* en 38.000 *x unidad*  \n💰 *Asi Sea*  44.000 *x unidad*",
+          "payload": "false"
+        },
+        {
+          "db": {
+            "message-id": "136383",
+            "queue": "false"
+          },
+          "message": "https://mujeron.cl/jeans-colombianos/",
+          "payload": "false"
+        }
+      ],
+      "response": {
+        "responseId": "cff08b79-86ac-4329-a9d4-bde1a0f80f50-07153d3d",
+        "queryResult": {
+          "queryText": "jeans",
+          "allRequiredParamsPresent": "true",
+          "fulfillmentText": "💰 *Cheviotto* 42.000 *x unidad*\n💰 *Mujerón* 40.000 *x unidad*\n💰 *TyT* en 42.000 *x unidad*\n💰 *Forlux* 42.000 *x unidad*\n💰 *Real* en 38.000 *x unidad*  \n💰 *Asi Sea*  44.000 *x unidad*",
+          "fulfillmentMessages": [
+            {
+              "text": {
+                "text": [
+                  "💰 *Cheviotto* 42.000 *x unidad*\n💰 *Mujerón* 40.000 *x unidad*\n💰 *TyT* en 42.000 *x unidad*\n💰 *Forlux* 42.000 *x unidad*\n💰 *Real* en 38.000 *x unidad*  \n💰 *Asi Sea*  44.000 *x unidad*"
+                ]
+              },
+              "platform": "FACEBOOK"
+            },
+            {
+              "text": {
+                "text": [
+                  "https://mujeron.cl/jeans-colombianos/"
+                ]
+              },
+              "platform": "FACEBOOK"
+            },
+            {
+              "payload": {
+                "etiquetaFB": "1703325846383525"
+              },
+              "platform": "FACEBOOK"
+            },
+            {
+              "payload": {
+                "etiquetaFB": "2204446953008371"
+              },
+              "platform": "FACEBOOK"
+            },
+            {
+              "text": {
+                "text": [
+                  "💰 *Cheviotto* 42.000 *x unidad*\n💰 *Mujerón* 40.000 *x unidad*\n💰 *TyT* en 42.000 *x unidad*\n💰 *Forlux* 42.000 *x unidad*\n💰 *Real* en 38.000 *x unidad*  \n💰 *Asi Sea*  44.000 *x unidad*"
+                ]
+              }
+            },
+            {
+              "text": {
+                "text": [
+                  "https://mujeron.cl/jeans-colombianos/"
+                ]
+              }
+            }
+          ],
+          "outputContexts": [
+            {
+              "name": "projects/m007-cladik/agent/sessions/9035/contexts/preguntoxjeans",
+              "lifespanCount": "5",
+              "parameters": {
+                "hola.original": "",
+                "CategoriaJeans": "Jeans",
+                "CategoriaJeans.original": "jeans",
+                "hola": ""
+              }
+            },
+            {
+              "name": "projects/m007-cladik/agent/sessions/9035/contexts/preciosjeans-followup",
+              "lifespanCount": "2"
+            },
+            {
+              "name": "projects/m007-cladik/agent/sessions/9035/contexts/preciosjeans-followup-2",
+              "lifespanCount": "2"
+            }
+          ],
+          "intent": {
+            "name": "projects/m007-cladik/agent/intents/0be73023-8f88-4170-bf1f-a6fa0136e9cf",
+            "displayName": "PreciosJeans"
+          },
+          "intentDetectionConfidence": "1",
+          "languageCode": "es"
+        },
+        "outputAudio": ""
+      }
+    },
+    "message": "jeans"
+  },
+  "sender-url": "https://mujeron.cl/"
+}

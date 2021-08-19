@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "m007-cladik",
+  "private_key_id": "1889e2f03b88acdbfbbd1db467dffc75577ad743",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDxYst+QeEQCKgW\nOk2dK5HNK7Is2v1KXdnNKDejyj5oKPFYgSq5sszM/iKv4hGEo//5kud0nEjP6vbF\nvYg5gQ3ZPK5MoYZ5XhoYP/A3qcr5/IG+LiVIjZvxWvbkf4wFdD6pwsKqGeXBrIap\n/ViW04QbF9/S0PThDNuat0T23BvUsm4lWUyFhHLE3Z0/kAITLWahi9TBpHnb862b\nAllxVrV4SPakE/VeXjZtLB+7ITaDHc3yL+BgpQJO6ETw6T4Y70JPxDXDJu8QxhpR\nS4OZX9szbgctxUHGV8tJIKbR/voj5B1HU0SzVNRwUoCyc9175m50YZExRj8Sb1of\nStn1zm6/AgMBAAECggEAHx8HMHCK9VfAYBlFP3HKGwM6thjH1koyVgaM4eOl1yUM\nNMZ2fTmluPo8+6MwcgL48jLz/29U3eWjykvM3+kZIXx21m9u2H/+6kh4Dp0oC8H3\n8k6dxPRo+h2pvj0Jjvx1RcrT8T1kh2tYc1s0DEIaAqo508LYB5nySEi/rfoj5nCY\ntBMaR7kZRy2NsIKK3kDisSZ55bHM599xcJG+R9sGYnvRAWUE/O4qChKIXVSY3B+2\nGO5qjFsjq0IfBZUVxquTZHbCHeTxae972ODXYb86mTxOKdxdtSTfHBt0P0c9gtY1\n/e3yoZUsk4/hTTQMCdl8z/A7SNJYllYDfjZt6aAnDQKBgQD55WABJe+JH+KEaMlE\nAkQv943bkTrqAitwM+61FCVf/na7eJkU/26Hcvk6m9KzfLjRsj7deCIja/R7MZ+m\nN67g1sgrpiEF1UtRmyIHkROGgLIpvQGt1dSgMnzK6QH8x+LTOkdPpGkfC5Rz42GG\ntrVDFyuQ7b2zcBnGW+yb5VlLZQKBgQD3SDSbQia0drTPfIcbHcehV0ogBoj2X2og\nOcLT3iU5As5StGjSlkFSSibxynWTKrv+VgNL7rdvsn9gQoDcSMSVKMB07FFbp7S4\nP7zrji4dFoHFtl83AEuIvTbxgVsCejR/Wv0+9A14cVE1uSvIGg4UblfKkyLx7boY\nRznSJHO5UwKBgQDf2GCcBrA/w6jzdK281s7frL+Mi9YbIeBpPIu59pbYGyeeHJP7\npCcM+6dWoZgmoTUo2aLIXcEuu5ge9j+M89oZmytpNgHkqMA0FGNyJbk4xXVSP/UO\nEznIWhFA7WGTXjXHgi+4noxve7755BdLRcSumUW0J9HCt0rPTS5wIwxOpQKBgQCf\nyTyVBo3UFtCHMkRrNTcF/k2bnB1sdgMxh6FpHiaXTETeFE2XphfXgKrhmp2W1wpb\nMmE28638sy6zmMWDklHUwFx8MSfxPdD9LdJ5s4oAqcZ5Z3rnI32rgfi63YdddnHt\nyXHS+AisRyzetiSgTJXEhficoa72/VI+1ed67qsImQKBgG4vWqQ61++wWXznsZBV\n9z7HzAt7gvNtLb+HM72ryur/pr40M1kjMNruR6WJgOcvlaV1K4Rwq+VQEnnuRvVS\nOURrYht7eWu97rNa9Zs2yvzw2PDA46uEDnQcL3KtKRcqD4YSHbPE+Nj3MXzLHtVv\nDjsYwdtLIuyMh/m2vBZWrOZ/\n-----END PRIVATE KEY-----\n",
+  "client_email": "todo-full-chile@m007-cladik.iam.gserviceaccount.com",
+  "client_id": "113067222165612403919",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/todo-full-chile%40m007-cladik.iam.gserviceaccount.com"
+}

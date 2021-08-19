@@ -1,0 +1,60 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2020": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaVersion": 11
+  },
+  "rules": {
+    //custom
+    "callback-return": [
+      "error",
+      ["done", "proceed", "next", "onwards", "callback", "cb"]
+    ],
+    // "no-extra-semi": ["warn"],
+    "max-nested-callbacks": ["off"],
+    "no-unused-vars": [
+      "warn",
+      {
+        "caughtErrors": "all",
+        "caughtErrorsIgnorePattern": "^unused($|[A-Z].*$)"
+      }
+    ],
+    //end
+    "import/no-extraneous-dependencies": ["error", {
+      "devDependencies": true
+    }],
+    "no-async-promise-executor": ["off"],
+    "no-plusplus": [2, {
+      "allowForLoopAfterthoughts": true
+    }],
+    "implicit-arrow-linebreak": ["off"],
+    "no-param-reassign": ["off"],
+    "operator-linebreak": ["off"],
+    "no-underscore-dangle": ["off"],
+    "no-prototype-builtins": ["off"], //like hasownproperty
+    "no-use-before-define": ["off"],
+    "consistent-return": ["off"],
+    "new-cap": ["off"], //CHECK LATER New Model
+    "prefer-const": ["off"],
+    "camelcase": ["off"],
+    "no-iterator": ["off"],
+    "no-console": ["off"],
+    "global-require": ["off"],
+    "no-restricted-syntax": ["off"],
+    "import/no-dynamic-require": ["off"],
+    "no-await-in-loop": ["off"],
+    "comma-dangle": [2, "always-multiline"],
+    "quotes": [
+      "warn",
+      "single",
+      {
+        "avoidEscape": false,
+        "allowTemplateLiterals": true
+      }
+    ]
+  }
+}
